@@ -21,3 +21,14 @@ and finally returns a new array with the lengths of those words */
 
 /* 7 Allows you to designate what happens when an error is caught. Solves the problem
 of the program just stopping running when an uncaught error occurs. */
+
+// 8 see ./exercise_8.js
+
+// 9
+
+function isNegZero (value) {
+  return 10/value === -Infinity;
+} // Yes! Got it first time.
+
+/* 10 ++ increments the value, but returns the original value. You have to
+evaluate the new value to see the effect of the operator. */
