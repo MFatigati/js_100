@@ -52,3 +52,34 @@ switch(weather) {
   default:
     console.log("Let's stay inside.");
 } */
+
+/* Logical Conditions 1
+Code will evaluate to "Yes!" because the conditional is asking, "is this OR expression true?",
+and the OR expression is true, because one of its branches is true. */
+
+/* Logical Conditions 2
+Code will evaluate to "No..." because the conditional is asking, "is this AND expression true?",
+and the AND expression is false, because one of its branches is false. */
+
+/* Logical Conditions 3
+The ternary statement will run the first branch if the initial value is true, the second if it is
+false. In this false !sale is false, so the second branch runs. */
+
+/* Are we moving?
+let speed = 0;
+let acceleration = 24;
+let brakingForce = 19;
+
+let isMoving = brakingForce < acceleration && (speed > 0 || acceleration > 0);
+// breaking down the code into its values...
+let isMoving = true && (false || true);
+let isMoving = true && true;
+let isMoving = true
+
+console.log(isMoving);
+=returns true
+
+BONUS: without the parenthese, the AND would be evaluated prior to the OR (higher operator precedence),
+which would make the whole return value false
+
+*/
